@@ -1,0 +1,10 @@
+instruction: |
+  This is a scripted integration check, not a research experiment.
+  Verify that your native ARIS research skills and helpers are readable, then improve solution.py.
+  Leave any research records in the workspace so InfiniEvolve can archive them.
+evaluate: ["{python}", "{task}/evaluate.py"]
+metric: {name: mse, direction: min, scale: absolute}
+agent:
+  command: 'infinievolve-research agent --backend codex -- python "$EVOLVE_TASK/fake_agent.py"'
+time_limit_seconds: 30
+evaluate_timeout_seconds: 10
