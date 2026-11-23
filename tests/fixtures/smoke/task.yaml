@@ -4,7 +4,6 @@ instruction: |
   Leave any research records in the workspace so InfiniEvolve can archive them.
 evaluate: ["{python}", "{task}/evaluate.py"]
 metric: {name: mse, direction: min, scale: absolute}
-agent:
-  command: 'infinievolve-research agent --backend codex -- python "$EVOLVE_TASK/fake_agent.py"'
+# The integration test supplies the scripted agent command explicitly.
 time_limit_seconds: 30
 evaluate_timeout_seconds: 10

@@ -2,8 +2,8 @@
 
 | Role | Project | Pinned commit | License |
 |---|---|---|---|
-| Scheduler | [InfiniEvolve/InfiniEvolve](https://github.com/InfiniEvolve/InfiniEvolve) | `19a95f4061f2bd47f50a773e6c3f2a0273118c26` | MIT, [upstream license](vendor/InfiniEvolve/LICENSE) |
-| Research skills | [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | `4ba94ae2a1c1fbbb14858750dd8764cabf6c28bd` | MIT, [upstream license](vendor/aris/LICENSE) |
+| Scheduler | [InfiniEvolve/InfiniEvolve](https://github.com/InfiniEvolve/InfiniEvolve) | `19a95f4061f2bd47f50a773e6c3f2a0273118c26` | MIT, [upstream license](framework/LICENSE) |
+| Research skills | [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | `4ba94ae2a1c1fbbb14858750dd8764cabf6c28bd` | MIT, [upstream license](skills/aris/LICENSE) |
 
 Both repositories are included unchanged as Git submodules. Their original copyright notices,
 licenses and any notices for embedded third-party material remain in those repositories.

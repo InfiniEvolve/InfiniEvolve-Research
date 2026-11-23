@@ -1,6 +1,6 @@
 [submodule "vendor/InfiniEvolve"]
-	path = vendor/InfiniEvolve
+	path = framework
 	url = https://github.com/InfiniEvolve/InfiniEvolve.git
 [submodule "vendor/aris"]
-	path = vendor/aris
+	path = skills/aris
 	url = https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git

@@ -1,4 +1,4 @@
-"""Tiny fixed evaluator, run by unmodified InfiniEvolve in a clean copy."""
+"""Test-only evaluator, run by unmodified InfiniEvolve in a clean copy."""
 import json
 import math
 import runpy
