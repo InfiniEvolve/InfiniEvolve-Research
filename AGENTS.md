@@ -1,12 +1,12 @@
 # Project instructions
 
-- 说人话。
-- 如果做了实验，用表格或者图总结结果，并用一到两段话说明设置、结果和分析。
-- 发邮件前必须找用户 double check。
-- 本项目只给 InfiniEvolve 启动的 Agent 安装 ARIS skills。不要擅自增加研究阶段调度器、评分体系或新的工作流框架。
-- InfiniEvolve 是唯一核心调度框架。只有核心兼容性确实需要时才能改动 `framework`，并且必须单独向上游提 PR；不要在本项目偷偷保留核心补丁。
-- 保留 ARIS 上游 skills 原文及其依赖。不要覆盖用户已有的同名 skills 或全局配置。
-- 脚本替身验证与真实模型运行必须明确区分。
+- Use plain language.
+- When running experiments, summarize the results in a table or chart, with one or two paragraphs explaining the setup, results, and analysis.
+- Get the user's confirmation before sending any email.
+- This project only installs ARIS skills for agents launched by InfiniEvolve. Do not add research-stage schedulers, scoring systems, or new workflow frameworks without explicit authorization.
+- InfiniEvolve is the sole core scheduling framework. Modify `framework` only when core compatibility requires it, and submit those changes in a separate upstream PR. Do not keep undisclosed core patches in this project.
+- Preserve the original upstream ARIS skills and their dependencies. Do not overwrite the user's existing skills with the same names or their global configuration.
+- Clearly distinguish validation with scripted stand-ins from runs using real models.
 
 Validation: activate `.venv`, then `python -m pytest -q tests`. Dependencies are pinned Git submodules.
 Install only the core with `python -m pip install -e framework`; this project has no Python package.
